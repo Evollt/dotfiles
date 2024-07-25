@@ -1,0 +1,7 @@
+pane	configs	1	0	:	1	Evollts-MacBook-Pro.local	:/Users/evollt	1	zsh	:
+pane	configs	2	1	:*	1	Evollts-MacBook-Pro.local	:/Users/evollt	1	nvim	:nvim .tmux.conf.local
+pane	configs	3	0	:-	1	Evollts-MacBook-Pro.local	:/Users/evollt	1	zsh	:
+window	configs	1	:nvim	0	:	b91d,201x53,0,0,0	off
+window	configs	2	:tmux	1	:*	c29e,208x45,0,0,1	off
+window	configs	3	:alacritty	0	:-	c29f,208x45,0,0,2	off
+state	configs	

@@ -1,0 +1,25 @@
+pane	configs	1	1	:*	1	Evollts-MacBook-Pro.local	:/Users/evollt/.config/nvim	1	zsh	:
+pane	configs	2	0	:-	1	Evollts-MacBook-Pro.local	:/Users/evollt	1	zsh	:
+pane	configs	3	0	:	1	Evollts-MacBook-Pro.local	:/Users/evollt/.config/alacritty	1	zsh	:
+pane	configs	4	0	:	1	Evollts-MacBook-Pro.local	:/Users/evollt/.config/skhd	1	zsh	:
+pane	configs	5	0	:	1	Evollts-MacBook-Pro.local	:/Users/evollt	1	zsh	:
+pane	evollt-project	1	1	:*	1	Evollts-MacBook-Pro.local	:/Users/evollt/localhost/evollt-project/backend	1	zsh	:
+pane	evollt-project	2	0	:##	1	Evollts-MacBook-Pro.local	:/Users/evollt/localhost/evollt-project/backend	1	cargo-watch	:/Users/evollt/.cargo/bin/cargo-watch watch -q -c -w src/ -x run
+pane	evollt-project	3	0	:-	1	Evollts-MacBook-Pro.local	:/Users/evollt/localhost/evollt-project/backend	1	zsh	:
+pane	front-nuxt	1	1	:##*	1	Evollts-MacBook-Pro.local	:/Users/evollt/localhost/front-nuxt	1	nvim	:nvim
+pane	front-nuxt	2	0	:##-	1	Evollts-MacBook-Pro.local	:/Users/evollt/localhost/front-nuxt	1	node	:npm run dev   
+pane	my_blog	1	1	:*	1	Evollts-MacBook-Pro.local	:/Users/evollt/localhost/my-blog/frontend	1	zsh	:
+pane	my_blog	2	0	:-	1	Evollts-MacBook-Pro.local	:/Users/evollt/localhost/my-blog	1	zsh	:
+window	configs	1	:nvim	1	:*	c8df,252x66,0,0,2	off
+window	configs	2	:tmux	0	:-	c7c0,131x66,0,0,3	off
+window	configs	3	:alacritty	0	:	c8e1,252x66,0,0,4	off
+window	configs	4	:yabai	0	:	c8e2,252x66,0,0,5	off
+window	configs	5	:zsh	0	:	c8e3,252x66,0,0,6	:
+window	evollt-project	1	:zsh	1	:*	c8e4,252x66,0,0,7	:
+window	evollt-project	2	:cargo-watch	0	:##	c7c5,131x66,0,0,8	:
+window	evollt-project	3	:tests	0	:-	6412,131x66,0,0,13	off
+window	front-nuxt	1	:code	1	:##*	c8e6,252x66,0,0,9	off
+window	front-nuxt	2	:server	0	:##-	649f,252x66,0,0,10	off
+window	my_blog	1	:code	1	:*	64a0,252x66,0,0,11	off
+window	my_blog	2	:server	0	:-	64a1,252x66,0,0,12	off
+state	my_blog	configs

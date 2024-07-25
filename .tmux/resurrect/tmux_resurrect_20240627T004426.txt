@@ -1,0 +1,5 @@
+pane	1	1	1	:*	1	Evollts-MacBook-Pro.local	:/Users/evollt/localhost/front-nuxt	1	zsh	:
+pane	2	1	1	:*	1	Evollts-MacBook-Pro.local	:/Users/evollt/localhost/front-nuxt	1	zsh	:
+window	1	1	:zsh	1	:*	c8df,252x66,0,0,2	:
+window	2	1	:zsh	1	:*	c8e0,252x66,0,0,3	:
+state	1	2
