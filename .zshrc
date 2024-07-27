@@ -97,6 +97,7 @@ source $ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 export EVOLLT_SERVER=65.109.170.164
+export W3MIMGDISPLAY_PATH=/opt/homebrew/bin/w3m
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -149,4 +150,6 @@ export TMUX_CONF=~/.tmux.conf
 eval "$(fzf --zsh)"
 export LANGUAGE='en_US.UTF-8 git'
 export EDITOR=nvim
+export VISUAL="$EDITOR"
 
+eval "$(rbenv init -)"

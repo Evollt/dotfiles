@@ -1,0 +1,13 @@
+pane	configs	1	0	:-	1	Evollts-MacBook-Pro.local	:/Users/evollt/.config/nvim	1	zsh	:
+pane	configs	2	1	:*	1	Evollts-MacBook-Pro.local	:/Users/evollt	1	zsh	:
+pane	evollt-project	1	1	:*	1	Evollts-MacBook-Pro.local	:/Users/evollt/localhost/evollt-project	1	zsh	:
+pane	evollt-project	2	0	:-	1	Evollts-MacBook-Pro.local	:/Users/evollt/localhost/front-nuxt	1	zsh	:
+pane	front-nuxt	1	1	:*	1	Evollts-MacBook-Pro.local	:/Users/evollt/localhost/front-nuxt	1	zsh	:
+pane	front-nuxt	2	0	:-	1	Evollts-MacBook-Pro.local	:/Users/evollt/localhost/front-nuxt	1	zsh	:
+window	configs	1	:nvim	0	:-	c8de,252x66,0,0,1	off
+window	configs	2	:tmux	1	:*	c8e3,252x66,0,0,6	off
+window	evollt-project	1	:nvim	1	:*	64a0,252x66,0,0,11	off
+window	evollt-project	2	:server	0	:-	64a1,252x66,0,0,12	off
+window	front-nuxt	1	:nvim	1	:*	c8e6,252x66,0,0,9	off
+window	front-nuxt	2	:server	0	:-	649f,252x66,0,0,10	off
+state	front-nuxt	evollt-project

@@ -1,3 +1,6 @@
+local api = vim.api
+local keymap = vim.keymap
+
 return {
   {
     "folke/noice.nvim",
@@ -320,6 +323,9 @@ local colors = {
   {
     "nvimdev/dashboard-nvim",
     event = "VimEnter",
+    dependencies = {
+      "famiu/bufdelete.nvim", -- for autocmd
+    },
     opts = function(_, opts)
       local logo = [[
          ________                    __  __    __     

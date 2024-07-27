@@ -286,3 +286,80 @@
 [2024-07-25 18:43:26.327]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/clean_plugins all
 [2024-07-25 18:43:26.386]	 Done.
 
+[2024-07-26 00:15:47.640]	 List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2024-07-26 00:15:47.652]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/install_plugins
+[2024-07-26 00:15:47.913]	 Already installed "tmux-resurrect"
+[2024-07-26 00:15:47.927]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/update_plugins all
+[2024-07-26 00:15:48.149]	 Updating all plugins!
+[2024-07-26 00:15:48.149]	 
+[2024-07-26 00:15:48.941]	   "tmux-resurrect" update success
+[2024-07-26 00:15:48.943]	     | Already up to date.
+[2024-07-26 00:15:48.955]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-07-26 00:15:48.999]	 Done.
+
+[2024-07-26 00:16:28.544]	 List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2024-07-26 00:16:28.555]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/install_plugins
+[2024-07-26 00:16:28.748]	 Already installed "tmux-resurrect"
+[2024-07-26 00:16:28.761]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/update_plugins all
+[2024-07-26 00:16:28.918]	 Updating all plugins!
+[2024-07-26 00:16:28.918]	 
+[2024-07-26 00:16:29.751]	   "tmux-resurrect" update success
+[2024-07-26 00:16:29.753]	     | Already up to date.
+[2024-07-26 00:16:29.765]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-07-26 00:16:29.811]	 Done.
+
+[2024-07-26 00:16:48.267]	 List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2024-07-26 00:16:48.279]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/install_plugins
+[2024-07-26 00:16:48.472]	 Already installed "tmux-resurrect"
+[2024-07-26 00:16:48.486]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/update_plugins all
+[2024-07-26 00:16:48.643]	 Updating all plugins!
+[2024-07-26 00:16:48.643]	 
+[2024-07-26 00:16:49.394]	   "tmux-resurrect" update success
+[2024-07-26 00:16:49.397]	     | Already up to date.
+[2024-07-26 00:16:49.409]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-07-26 00:16:49.454]	 Done.
+
+[2024-07-26 00:16:58.389]	 List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2024-07-26 00:16:58.401]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/install_plugins
+[2024-07-26 00:16:58.602]	 Already installed "tmux-resurrect"
+[2024-07-26 00:16:58.615]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/update_plugins all
+[2024-07-26 00:16:58.764]	 Updating all plugins!
+[2024-07-26 00:16:58.764]	 
+[2024-07-26 00:16:59.571]	   "tmux-resurrect" update success
+[2024-07-26 00:16:59.573]	     | Already up to date.
+[2024-07-26 00:16:59.585]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-07-26 00:16:59.630]	 Done.
+
+[2024-07-26 00:18:11.239]	 List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2024-07-26 00:18:11.251]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/install_plugins
+[2024-07-26 00:18:11.562]	 Already installed "tmux-resurrect"
+[2024-07-26 00:18:11.575]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/update_plugins all
+[2024-07-26 00:18:11.863]	 Updating all plugins!
+[2024-07-26 00:18:11.864]	 
+[2024-07-26 00:18:12.669]	   "tmux-resurrect" update success
+[2024-07-26 00:18:12.671]	     | Already up to date.
+[2024-07-26 00:18:12.684]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-07-26 00:18:12.728]	 Done.
+
+[2024-07-26 10:00:22.675]	 List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2024-07-26 10:00:22.687]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/install_plugins
+[2024-07-26 10:00:22.891]	 Already installed "tmux-resurrect"
+[2024-07-26 10:00:22.905]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/update_plugins all
+[2024-07-26 10:00:23.058]	 Updating all plugins!
+[2024-07-26 10:00:23.059]	 
+[2024-07-26 10:00:23.667]	   "tmux-resurrect" update success
+[2024-07-26 10:00:23.670]	     | Already up to date.
+[2024-07-26 10:00:23.681]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-07-26 10:00:23.731]	 Done.
+
+[2024-07-26 10:00:41.944]	 List of discovered tpm plugins: tmux-plugins/tmux-resurrect
+[2024-07-26 10:00:41.955]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/install_plugins
+[2024-07-26 10:00:42.162]	 Already installed "tmux-resurrect"
+[2024-07-26 10:00:42.175]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/update_plugins all
+[2024-07-26 10:00:42.320]	 Updating all plugins!
+[2024-07-26 10:00:42.320]	 
+[2024-07-26 10:00:42.886]	   "tmux-resurrect" update success
+[2024-07-26 10:00:42.889]	     | Already up to date.
+[2024-07-26 10:00:42.900]	 Invoking /Users/evollt/.tmux/plugins/tpm/bin/clean_plugins all
+[2024-07-26 10:00:42.944]	 Done.
+
