@@ -146,24 +146,6 @@ return {
         end,
         desc = "Open File Browser with the path of the current buffer",
       },
-      -- {
-      --   "<Leader><Leader>",
-      --   function()
-      --     local telescope = require("telescope")
-      --
-      --     local function telescope_buffer_dir()
-      --       return vim.fn.expand("%:p:h")
-      --     end
-      --
-      --     telescope.extensions.file_browser.file_browser({
-      --       respect_gitignore = false,
-      --       hidden = true,
-      --       grouped = true,
-      --       initial_mode = "normal",
-      --     })
-      --   end,
-      --   desc = "Open File Browser with the path of the current buffer",
-      -- },
     },
     config = function(_, opts)
       local telescope = require("telescope")

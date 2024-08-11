@@ -486,5 +486,11 @@ set -g @resurrect-dir '~/.tmux/resurrect'
 bind m run-shell -b '~/.tmux/plugins/tmux-resurrect/scripts/save.sh'
 bind M run-shell -b '~/.tmux/plugins/tmux-resurrect/scripts/restore.sh'
 
+# Перемещение окна влево
+bind-key -n M-Left swap-window -t -1
+
+# Перемещение окна вправо
+bind-key -n M-Right swap-window -t +1
+
 # Автоматическое сохранение сессий каждые 15 минут
 set -g @resurrect-save '15'

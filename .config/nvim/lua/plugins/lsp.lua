@@ -177,4 +177,27 @@ return {
   "mg979/vim-visual-multi",
   "tpope/vim-rails",
   "folke/neodev.nvim",
+  -- {
+  --   "gen740/SmoothCursor.nvim",
+  --   event = "VeryLazy",
+  --   opts = {
+  --     autostart = true,
+  --     cursor = "",
+  --     texthl = "SmoothCursor",
+  --     linehl = "Cursorline",
+  --     type = "default",
+  --     fancy = {
+  --       enable = true,
+  --       head = { cursor = ">", texthl = "SmoothCursor", linehl = nil },
+  --       body = {
+  --         { cursor = "•", texthl = "SmoothCursorRed" },
+  --         { cursor = "•", texthl = "SmoothCursorOrange" },
+  --         { cursor = "•", texthl = "SmoothCursorOrange" },
+  --         { cursor = ".", texthl = "SmoothCursorYellow" },
+  --       },
+  --       tail = { cursor = nil, texthl = "SmoothCursor" },
+  --     },
+  --     speed = 50,
+  --   },
+  -- },
 }

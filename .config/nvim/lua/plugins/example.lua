@@ -84,6 +84,32 @@ return {
         "vim",
         "yaml",
       },
+      textobjects = {
+        select = {
+          enable = true,
+          lookahead = true,
+          keymaps = {
+            ["af"] = "@function.outer",
+            ["if"] = "@function.inner",
+            ["ai"] = "@interface.outer",
+            ["ii"] = "@interface.inner",
+          },
+        },
+        move = {
+          enable = true,
+          set_jumps = true, -- чтобы можно было использовать <C-o> и <C-i> для переходов
+          goto_next_start = {
+            ["]f"] = "@function.outer",
+            ["]c"] = "@class.outer",
+            ["]t"] = "@conditional.outer",
+          },
+          goto_previous_start = {
+            ["[f"] = "@function.outer",
+            ["[c"] = "@class.outer",
+            ["[t"] = "@conditional.outer",
+          },
+        },
+      },
     },
   },
 

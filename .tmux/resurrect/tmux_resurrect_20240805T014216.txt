@@ -1,0 +1,9 @@
+pane	configs	1	1	:*	1	Evollts-MacBook-Pro.local	:/Users/evollt	1	zsh	:
+pane	zbsk-front	1	1	:##*	1	Evollts-MacBook-Pro.local	:/Users/evollt/localhost/zbsk/frontend	1	nvim	:nvim
+pane	zbsk-front	2	0	:##	1	Evollts-MacBook-Pro.local	:/Users/evollt/localhost/zbsk/frontend	1	node	:npm run dev   
+pane	zbsk-front	3	0	:-	1	Evollts-MacBook-Pro.local	:/Users/evollt/localhost/zbsk/frontend	1	zsh	:
+window	configs	1	:alacritty	1	:*	c8e0,252x66,0,0,3	off
+window	zbsk-front	1	:nvim	1	:##*	c8dd,252x66,0,0,0	off
+window	zbsk-front	2	:server	0	:##	c8de,252x66,0,0,1	off
+window	zbsk-front	3	:terminal	0	:-	c8df,252x66,0,0,2	off
+state	configs	
