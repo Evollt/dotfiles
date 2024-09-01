@@ -57,10 +57,14 @@ return {
         "lua_ls",
         "tsserver",
         "volar",
+        "phpactor",
       },
     },
     config = function(_, opts)
       require("mason-lspconfig").setup(opts)
+      require("lspconfig").phpactor.setup({})
+      require("lspconfig").intelephense.setup({})
+      require("lspconfig").typos_lsp.setup({})
     end,
   },
   {
