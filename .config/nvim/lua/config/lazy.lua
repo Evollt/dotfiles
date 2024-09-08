@@ -23,6 +23,7 @@ require("lazy").setup({
     -- { import = "lazyvim.plugins.extras.coding.copilot" },
     { import = "lazyvim.plugins.extras.util.mini-hipatterns" },
     { import = "lazyvim.plugins.extras.lang.vue" },
+    -- { import = "lazyvim.plugins.extras.lang.php" },
     { import = "lazyvim.plugins.extras.editor.leap" },
 
     -- import/override with your plugins

@@ -1,0 +1,86 @@
+version = 2
+
+[[blocks]]
+alignment = "left"
+type = "prompt"
+
+  [[blocks.segments]]
+  foreground = "#3A86FF"
+  background = "#000"
+  style = "plain"
+  template = " {{ if .WSL }}WSL at {{ end }}{{.Icon}} "
+  type = "os"
+
+  [[blocks.segments]]
+  background = "#000"
+  foreground = "#f1184c"
+  powerline_symbol = ""
+  style = "powerline"
+  template = " {{ .UserName }} "
+  type = "session"
+
+  [[blocks.segments]]
+  background = "#000"
+  foreground = "#f1184c"
+  powerline_symbol = ""
+  style = "powerline"
+  template = "- root "
+  type = "root"
+
+  [[blocks.segments]]
+  background = "#242424"
+  foreground = "#FFBB00"
+  powerline_symbol = ""
+  style = "powerline"
+  template = "{{ .CurrentDate | date .Format }} "
+  type = "time"
+
+    [blocks.segments.properties]
+    time_format = "2006-01-02 15:04:05"
+
+  [[blocks.segments]]
+  background = "#242424"
+  foreground = "#33DD2D"
+  powerline_symbol = ""
+  style = "powerline"
+  template = " {{ .Path }} "
+  type = "path"
+
+    [blocks.segments.properties]
+    folder_separator_icon = "/"
+    style = "full"
+
+  [[blocks.segments]]
+  background = "#242424"
+  foreground = "#3A86FF"
+  powerline_symbol = ""
+  style = "powerline"
+  template = "{{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }}  {{ .StashCount }}{{ end }} "
+  type = "git"
+
+    [blocks.segments.properties]
+    fetch_stash_count = true
+    fetch_upstream_icon = true
+
+  [[blocks.segments]]
+  background = "#33DD2D"
+  background_templates = [ "{{ if gt .Code 0 }}#f1184c{{ end }}" ]
+  foreground = "#242424"
+  powerline_symbol = ""
+  style = "powerline"
+  template = "  "
+  type = "status"
+
+    [blocks.segments.properties]
+    always_enabled = true
+
+[[blocks]]
+alignment = "left"
+newline = true
+type = "prompt"
+
+  [[blocks.segments]]
+  foreground = "#f1184c"
+  style = "plain"
+  template = "➜ "
+  type = "text"
