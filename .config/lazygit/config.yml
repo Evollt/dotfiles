@@ -1,0 +1,5 @@
+gui:
+  theme:
+    lightTheme: false
+    activeBorderColor: "cyan"
+    inactiveBorderColor: "gray"
