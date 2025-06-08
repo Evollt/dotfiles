@@ -16,8 +16,8 @@ return {
           PmenuThumb = { fg = "NONE", bg = "NONE" },
         },
       })
-      -- vim.g.material_style = "deep ocean"
-      -- vim.cmd("colorscheme material")
+      vim.g.material_style = "darker"
+      vim.cmd("colorscheme material")
     end,
   },
 
@@ -74,8 +74,22 @@ return {
           highlights.CursorLineNr = { fg = accent_color, bg = colors.none } -- измените цвет номера активной строки
         end,
       })
+      -- require("tokyonight").load()
+      -- vim.cmd("colorscheme tokyonight")
+    end,
+  },
+  {
+    "navarasu/onedark.nvim",
+    priority = 1000,
+    config = function()
+      require("onedark").setup({
+        style = "warmer",
+        transparent = true,
+      })
 
-      vim.cmd("colorscheme tokyonight")
+      -- Enable theme
+      -- require("onedark").load()
+      -- vim.cmd("colorscheme onedark")
     end,
   },
 }

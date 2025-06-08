@@ -11,7 +11,6 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -81,14 +80,12 @@ export ZSH="$HOME/.oh-my-zsh"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 	git
-	vi-mode
 	vscode
 	node
 	npm
 	laravel
 	docker
 	zsh-autosuggestions
-	z
 	zsh-syntax-highlighting
 )
 
@@ -97,8 +94,10 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
-export EVOLLT_VPN_SERVER=195.2.80.111
-export MARZBAN_VPN_SERVER=77.221.137.18
+export EVOLLT_VPN_SERVER=147.45.48.78
+export EVOLLT_ACADEMY_SERVER=147.45.48.66
+export TEACHER_SCHEDULE_SERVER=37.220.86.84
+export MARZBAN_VPN_SERVER=89.22.228.158
 export W3MIMGDISPLAY_PATH=/opt/homebrew/bin/w3m
 
 # You may need to manually set your language environment
@@ -119,6 +118,7 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"
 # Starship
 export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 eval "$(starship init zsh)"
+eval "$(zoxide init --cmd cd zsh)"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -148,6 +148,8 @@ alias cat="bat"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+export NVM_DIR="$HOME/.nvm"
+
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/postgresql@15/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/postgresql@15/include"
@@ -177,3 +179,7 @@ function y() {
 	fi
 	rm -f -- "$tmp"
 }
+
+export NVM_DIR="$HOME/.config/nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

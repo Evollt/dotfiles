@@ -206,11 +206,11 @@ if.app-id = 'company.thebrowser.Browser'
 run = 'move-node-to-workspace 2'
 
 [[on-window-detected]]
-if.app-id = 'org.alacritty'
+if.app-id = 'com.microsoft.VSCode'
 run = 'move-node-to-workspace 3'
 
 [[on-window-detected]]
-if.app-id = 'com.github.wez.wezterm'
+if.app-id = 'org.alacritty'
 run = 'move-node-to-workspace 3'
 
 [[on-window-detected]]
@@ -224,10 +224,6 @@ run = 'move-node-to-workspace 4'
 [[on-window-detected]]
 if.app-id = 'com.postmanlabs.mac'
 run = 'move-node-to-workspace 5'
-
-[[on-window-detected]]
-if.app-id = 'ru.yandex.desktop.music'
-run = 'move-node-to-workspace 6'
 
 [[on-window-detected]]
 if.app-id = 'com.apple.iCal'
@@ -245,4 +241,16 @@ run = 'move-node-to-workspace 9'
 if.app-id = 'md.obsidian'
 run = 'move-node-to-workspace 0'
 
+# Исключить программы
+[[on-window-detected]]
+if.app-id = 'com.apple.finder'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'com.apple.AddressBook'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-id = 'hossin.asaadi.V2Box'
+run = 'layout floating'
 

@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	ignorecase = true
+	precomposeunicode = true
+[status]
+	showUntrackedFiles = no
+[remote "origin"]
+	url = git@github.com:Evollt/dotfiles.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

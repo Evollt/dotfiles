@@ -226,7 +226,7 @@ keymap = [
 	# Line-wise movement
 	{ on = "0",      run = "move -999", desc = "Move to the BOL" },
 	{ on = "$",      run = "move 999",  desc = "Move to the EOL" },
-	{ on = "<C-a>",  run = "move -999", desc = "Move to the BOL" },
+	{ on = "<S-a>",  run = "move -999", desc = "Move to the BOL" },
 	{ on = "<C-e>",  run = "move 999",  desc = "Move to the EOL" },
 	{ on = "<Home>", run = "move -999", desc = "Move to the BOL" },
 	{ on = "<End>",  run = "move 999",  desc = "Move to the EOL" },
