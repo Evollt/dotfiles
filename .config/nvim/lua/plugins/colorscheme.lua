@@ -16,8 +16,8 @@ return {
           PmenuThumb = { fg = "NONE", bg = "NONE" },
         },
       })
-      vim.g.material_style = "darker"
-      vim.cmd("colorscheme material")
+      -- vim.g.material_style = "darker"
+      -- vim.cmd("colorscheme material")
     end,
   },
 
@@ -88,8 +88,8 @@ return {
       })
 
       -- Enable theme
-      -- require("onedark").load()
-      -- vim.cmd("colorscheme onedark")
+      require("onedark").load()
+      vim.cmd("colorscheme onedark")
     end,
   },
 }

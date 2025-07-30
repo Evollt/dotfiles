@@ -113,6 +113,8 @@ export W3MIMGDISPLAY_PATH=/opt/homebrew/bin/w3m
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 export PATH="$PATH:$HOME/.composer/vendor/bin"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 # export TMUX_PROGRAM=~/.tmux
 
 # Starship
@@ -168,6 +170,7 @@ eval "$(fzf --zsh)"
 export LANGUAGE='en_US.UTF-8 git'
 export EDITOR="nvim"
 export VISUAL="nvim"
+stty -ixon
 
 eval "$(rbenv init -)"
 

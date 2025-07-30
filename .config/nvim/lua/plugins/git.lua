@@ -11,4 +11,31 @@ return {
       })
     end,
   },
+  {
+    "sindrets/diffview.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    config = function()
+      require("diffview").setup()
+    end,
+  },
+  {
+    "pwntester/octo.nvim",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "nvim-telescope/telescope.nvim",
+      "nvim-tree/nvim-web-devicons",
+    },
+    config = function()
+      require("octo").setup({
+        mappings = {
+          review_diff = {
+            toggle_viewed = { lhs = "<leader>gV", desc = "toggle file viewed state" },
+          },
+          file_panel = {
+            toggle_viewed = { lhs = "<leader>gV", desc = "toggle file viewed state" },
+          },
+        },
+      })
+    end,
+  },
 }

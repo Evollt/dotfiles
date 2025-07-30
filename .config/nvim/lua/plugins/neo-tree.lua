@@ -50,6 +50,7 @@ return {
       },
     },
     window = {
+      -- width = 0.2, -- Этот код если использовать панель слева
       position = "float",
       popup = {
         size = {
@@ -60,7 +61,6 @@ return {
         border = "double",
         title = "",
       },
-      mappings = { ... }, -- твои остальные маппинги
     },
     default_component_configs = {
       indent = {
