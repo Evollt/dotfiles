@@ -2,3 +2,4 @@
 require("config.lazy")
 
 vim.opt.mouse = "a"
+vim.g.vscode = true

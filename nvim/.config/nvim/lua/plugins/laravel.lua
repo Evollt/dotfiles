@@ -1,25 +1,43 @@
 return {
-  {
-    "adalessa/laravel.nvim",
-    dependencies = {
-      "nvim-telescope/telescope.nvim",
-      "tpope/vim-dotenv",
-      "MunifTanjim/nui.nvim",
-      "nvimtools/none-ls.nvim",
-      "kevinhwang91/promise-async",
-      "nvim-neotest/nvim-nio",
-    },
-    cmd = { "Sail", "Artisan", "Composer", "Npm", "Yarn", "Laravel" },
-    keys = {
-      { "<leader>la", ":Laravel artisan<cr>" },
-      { "<leader>lr", ":Laravel routes<cr>" },
-      { "<leader>lm", ":Laravel related<cr>" },
-    },
-    event = { "VeryLazy" },
-    config = true,
-    opts = {
-      lsp_server = "intelephense",
-      features = { null_ls = { enable = false } },
-    },
-  },
+  -- {
+  --   "adalessa/laravel.nvim",
+  --   dependencies = {
+  --     "nvim-telescope/telescope.nvim",
+  --     "tpope/vim-dotenv",
+  --     "MunifTanjim/nui.nvim",
+  --     "nvimtools/none-ls.nvim",
+  --     "nvim-neotest/nvim-nio",
+  --   },
+  --   cmd = { "Laravel", "Artisan", "Composer" },
+  --   keys = {
+  --     { "<leader>la", ":Laravel artisan<cr>" },
+  --     { "<leader>lr", ":Laravel routes<cr>" },
+  --     { "<leader>lm", ":Laravel related<cr>" },
+  --   },
+  --   opts = {
+  --     lsp_server = "intelephense",
+  --
+  --     docker = {
+  --       enabled = true,
+  --       compose_command = "docker compose",
+  --       container = "php",
+  --     },
+  --
+  --     commands = {
+  --       artisan = {
+  --         cmd = "docker compose run --rm --remove-orphans artisan",
+  --       },
+  --       composer = {
+  --         cmd = "docker compose run --rm --remove-orphans composer",
+  --       },
+  --       npm = {
+  --         cmd = "docker compose run --rm --remove-orphans node",
+  --       },
+  --     },
+  --
+  --     features = {
+  --       null_ls = { enable = false },
+  --     },
+  --   },
+  -- },
 }

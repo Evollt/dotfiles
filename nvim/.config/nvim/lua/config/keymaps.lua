@@ -27,3 +27,4 @@ map("n", "<leader>ghI", "<cmd>Octo issue create<CR>", opts) -- Create issue
 
 -- Gitsigns
 map("n", "<leader>gp", "<cmd>Gitsigns preview_hunk<CR>", opts) -- Create issue
+map("i", "jj", "<Esc>")
