@@ -149,11 +149,17 @@ alias cat="bat"
 export PATH="$PATH:$HOME/.rvm/bin"
 export NVM_DIR="$HOME/.nvm"
 
+# Skladolog
+export SKLADOLOG_DEV_SECOND="62.181.53.142"
+export SKLADOLOG_DEV="82.146.42.227"
+
+
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/postgresql@15/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/postgresql@15/include"
 export PKG_CONFIG_PATH="/opt/homebrew/opt/postgresql@15/lib/pkgconfig"
 export XDG_CONFIG_HOME="$HOME/.config"
+
 
 # Bat (better cat)
 export BAT_THEME=tokyonight_night
@@ -188,7 +194,7 @@ _fzf_comprun() {
 
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --zsh)"
-export LANGUAGE='en_US.UTF-8 git'
+# export LANGUAGE='en_US.UTF-8 git'
 export EDITOR="nvim"
 export VISUAL="nvim"
 stty -ixon
