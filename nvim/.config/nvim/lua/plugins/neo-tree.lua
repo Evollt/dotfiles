@@ -59,7 +59,7 @@ return {
         },
         position = "50%", -- центр экрана
         border = "double",
-        title = "",
+        title = "Project Tree",
       },
     },
     default_component_configs = {

@@ -27,4 +27,15 @@ map("n", "<leader>ghI", "<cmd>Octo issue create<CR>", opts) -- Create issue
 
 -- Gitsigns
 map("n", "<leader>gp", "<cmd>Gitsigns preview_hunk<CR>", opts) -- Create issue
-map("i", "jj", "<Esc>")
+
+-- Open diffview
+map("n", "<leader>gd", function()
+  local lib = require("diffview.lib")
+  local view = lib.get_current_view()
+
+  if view then
+    vim.cmd("DiffviewClose!")
+  else
+    vim.cmd("DiffviewOpen")
+  end
+end, opts)
