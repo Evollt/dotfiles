@@ -7,6 +7,11 @@ return {
 
       opts.sources = opts.sources or {}
 
+      -- убираем phpcs и phpcsfixer добавленные LazyVim
+      opts.sources = vim.tbl_filter(function(source)
+        return source.name ~= "phpcs" and source.name ~= "phpcsfixer"
+      end, opts.sources)
+
       table.insert(
         opts.sources,
         null_ls.builtins.formatting.pint.with({
@@ -17,13 +22,12 @@ return {
             "/Users/evollt/.config/pint/pint.json",
             "$FILENAME",
           },
-          to_temp_file = true, -- создаёт временный файл, корректно работает с pint
+          to_temp_file = true,
           cwd = function(params)
             return root_pattern("pint.json", "composer.json", ".git")(params.bufname)
           end,
-          -- подавляем окно с выводом (если pint что-то выводит)
           on_output = function(params, done)
-            done({ output = nil }) -- не открывать окно с выводом
+            done({ output = nil })
           end,
         })
       )

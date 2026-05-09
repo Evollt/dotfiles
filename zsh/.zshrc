@@ -152,6 +152,24 @@ export NVM_DIR="$HOME/.nvm"
 # Skladolog
 export SKLADOLOG_DEV_SECOND="62.181.53.142"
 export SKLADOLOG_DEV="82.146.42.227"
+export SKLADOLOG_STAGE="82.146.39.231"
+export SKLADOLOG_PROD="92.63.104.210"
+
+# SakhLife
+export SAKH_LIFE_DEV="62.109.31.229"
+export SAKH_LIFE_PROD="80.87.196.120"
+
+# Mattermost
+export MATTERMOST_SERVER="188.120.224.120"
+
+# Evollt Mattermost
+export EVOLLT_MATTERMOST="157.22.192.69"
+
+# BlinDaGrif
+export BDG_DEV="79.174.12.150"
+export BDG_PROD="185.239.50.38"
+export BDG_MONGO_RU="155.212.162.31"
+export BDG_PROXY="185.184.123.254"
 
 
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
@@ -159,6 +177,9 @@ export LDFLAGS="-L/opt/homebrew/opt/postgresql@15/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/postgresql@15/include"
 export PKG_CONFIG_PATH="/opt/homebrew/opt/postgresql@15/lib/pkgconfig"
 export XDG_CONFIG_HOME="$HOME/.config"
+
+# Postgres@18
+export PGDATA=/usr/local/var/postgresql@18
 
 
 # Bat (better cat)

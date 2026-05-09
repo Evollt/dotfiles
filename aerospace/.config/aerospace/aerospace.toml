@@ -257,7 +257,7 @@ if.app-id = 'notion.id'
 run = 'move-node-to-workspace 10'
 
 [[on-window-detected]]
-if.app-id = 'ru.yandex.desktop.telemost'
+if.app-id = 'com.anytype.anytype'
 run = 'move-node-to-workspace 10'
 
 # Исключить программы
