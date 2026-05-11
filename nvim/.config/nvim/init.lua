@@ -13,9 +13,6 @@ vim.keymap.set('n', 'U', '<C-r>')
 -- paste without overwritting
 vim.keymap.set("v", "p", 'P')
 
--- clear search highlighting
-vim.keymap.set('n', '<Esc>', ':nohlsearch<cr>')
-
 -- skip folds
 vim.cmd('nmap j gj')
 vim.cmd('nmap k gk')
